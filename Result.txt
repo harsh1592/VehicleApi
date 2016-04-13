@@ -1,0 +1,60 @@
+Query by price
+Query = http://localhost:8080/getVehicle?price=10000
+
+[" Cervelo"," Huffy"," Trek","Ford Pinto","Chevy Vega","AMC Hornet","Yugo"," Honda"]
+
+Query the average cost per car type sorted by price
+
+[{"term":"Bicycle","cost":1116.6666666666667},
+{"term":"Motorcycle","cost":17000.0},
+{"term":"Truck","cost":20500.0},
+{"term":"Car","cost":176475.625}]
+
+Query the average cost per car Brand sorted by price
+
+[{"term":"Yugo","cost":10.0},
+{"term":"AMC Hornet","cost":100.0},
+{"term":" Huffy","cost":150.0},
+{"term":"Chevy Vega","cost":500.0},
+{"term":"Ford Pinto","cost":1000.0},
+{"term":" Trek","cost":1200.0},
+{"term":" Cervelo","cost":2000.0},
+{"term":" Honda","cost":13000.0},
+{"term":" Subaru","cost":13000.0},
+{"term":" Hyundai","cost":18333.333333333332},
+{"term":" Toyota","cost":22333.333333333332},
+{"term":" GMC","cost":24000.0},
+{"term":"Tesla model-S","cost":84000.0},
+{"term":" Tesla","cost":85000.0},
+{"term":" Bugatti Veyron","cost":2500000.0}]
+
+Query the average cost per car EngineType sorted by price
+
+[{"term":" None","cost":1116.6666666666667},
+{"term":" Gas","cost":15625.0},
+{"term":" Hybrid","cost":20333.333333333332},
+{"term":" Electric","cost":55000.0},
+{"term":"Electric","cost":84000.0},
+{"term":"Gas","cost":500322.0}]
+
+Query the average cost per car Colorsorted by price
+
+[{"term":"Gray","cost":10.0},
+{"term":"Tan","cost":100.0},
+{"term":"Dark Blue","cost":500.0},
+{"term":"Light Blue","cost":1000.0},
+{"term":" Orange","cost":1200.0},
+{"term":" White","cost":9050.0},
+{"term":" Gold","cost":13000.0},
+{"term":" Silver","cost":13000.0},
+{"term":" Red","cost":20000.0},
+{"term":" Blue","cost":26333.333333333332},
+{"term":" Green","cost":27000.0},
+{"term":"Red","cost":84000.0},
+{"term":" Black/Red","cost":2500000.0}]
+
+Summary: I haven't watched this but from what I read, it goes as;
+Mulder finds Dr.Secare dead, shot by one of the clean up team. Mulder is blinded by the toxic fumes from Secare's alien body.Scully 
+learns that Carpenter and her whole family were killed in a car crash and the flask is surely missing. 
+Deep Throat helps Scully obtain an alien embryo to trade for Mulder. Deep Throat makes the exchange but is shot 
+and left for dead. His last words to Scully are, "Trust no one." Weeks after this the X-Files are shut down.
