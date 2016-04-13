@@ -2,7 +2,7 @@
 Rest api to retrieve vehicle information based on user query. Developed using Spring framework.
 
 To run:
-Open the project in eclipse. Run the Applicaiton.java
+Open the project in eclipse. Run the Application.java
 
 To test:
 In browser
