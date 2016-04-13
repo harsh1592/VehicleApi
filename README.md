@@ -7,17 +7,17 @@ Open the project in eclipse. Run the Applicaiton.java
 To test:
 In browser
 
-Query the list of vehicle by price.
+Query the list of vehicle by price. \n
 eg: http://localhost:8080/getVehicle?price=10000
 
-Query the average cost per car type sorted by price
+Query the average cost per car type sorted by price \n
 eg: http://localhost:8080/getAvgCostByType
 
-Query the average cost per car Brand sorted by price
+Query the average cost per car Brand sorted by price \n
 eg: http://localhost:8080/getAvgCostByBrand
 
-Query the average cost per car EngineType sorted by price
+Query the average cost per car EngineType sorted by price \n
 eg: http://localhost:8080/getAvgCostByEngine
 
-Query the average cost per car Color sorted by price
+Query the average cost per car Color sorted by price \n
 eg: http://localhost:8080/getAvgCostByColor
